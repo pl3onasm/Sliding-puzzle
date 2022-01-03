@@ -1,9 +1,11 @@
-# Filename : generator.py
-# author: David De Potter, pl3onasm@gmail.com
-# license: refer to the license file in this repository
-# Description: generates a random puzzle of the given width and type
-# (both passed as command line arguments) and outputs a .in file in  
-# the input directory (which will be created if it does not exist)
+#  ┌──────────────────────────────────────────────────────────────────────┐
+#  |  File name: generator.py                                             | 
+#  |  Author: David De Potter, pl3onasm@gmail.com                         |
+#  |  License: refer to the license file in this repository               |
+#  |  Description: generates a random puzzle of the given width and type  |
+#  |  (both passed as command line arguments) and outputs a .in file in   |  
+#  |  the input directory (which will be created if it does not exist)    |
+#  └──────────────────────────────────────────────────────────────────────┘
 
 import random
 import sys

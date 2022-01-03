@@ -1,11 +1,13 @@
-# File name: astar.py
-# author: David De Potter, pl3onasm@gmail.com
-# license: refer to the license file in this repository
-# Description: implementation of A* algorithms
-# AStarTile is used to compute the shortest path from the blank square to 
-# a given tile's neighbour (adjacent tile)
-# AStar is used to compute the shortest node path in a 2x3 puzzle, where each
-# node contains a new puzzle that is one swap further away from the previous one
+#  ┌────────────────────────────────────────────────────────────────────────────┐
+#  |  File name: astar.py                                                       | 
+#  |  Author: David De Potter, pl3onasm@gmail.com                               |
+#  |  License: refer to the license file in this repository                     |
+#  |  Description: implementation of A* algorithms                              |
+#  |  - AStarTile is used to compute the shortest path from the blank           |
+#  |  square to a given tile's neighbour (adjacent tile)                        |
+#  |  - AStar computes the shortest node path for a 2x3 puzzle, where each      |
+#  |  node contains a new puzzle that is one swap further away from its parent  |
+#  └────────────────────────────────────────────────────────────────────────────┘
 
 from queue import PriorityQueue
 
@@ -37,7 +39,7 @@ def AStarTile (puzzle, blank, destination, tileValue) :
     
     return
     
-  ## <<::::::::::::::::::::::: A* Node Path Search ::::::::::::::::::::::::>> ##
+  ## <<:::::::::::::::::::::::: A* Node Path Search ::::::::::::::::::::::::>> ##
 
 def AStar (root) :
   '''A* algorithm to find shortest node path in the remaining 2x3 puzzle'''

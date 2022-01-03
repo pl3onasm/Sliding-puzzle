@@ -1,8 +1,10 @@
-# File name: solver.py
-# author: David De Potter, pl3onasm@gmail.com
-# license: refer to the license file in this repository
-# Description: solves a given sliding puzzle by applying a combination
-#              of A*-algorithms and a divide and conquer strategy
+#  ┌──────────────────────────────────────────────────────────────────┐
+#  |  File name: solver.py                                            | 
+#  |  Author: David De Potter, pl3onasm@gmail.com                     |
+#  |  License: refer to the license file in this repository           |
+#  |  Description: solves a given sliding puzzle by applying a        |
+#  |  combination of A*-algorithms and a divide and conquer strategy  |
+#  └──────────────────────────────────────────────────────────────────┘
 
 import os
 import sys  

@@ -1,9 +1,9 @@
-#  ┌────────────────────────────────────────────────────────────┐
-#  |  File name: puzzle.py                                      | 
-#  |  Author: David De Potter, pl3onasm@gmail.com               |
-#  |  License: refer to the license file in this repository     |
-#  |  Description: implementation of the puzzle class           |
-#  └────────────────────────────────────────────────────────────┘
+#  ╓────────────────────────────────────────────────────────────╖
+#  ║  File name: puzzle.py                                      ║ 
+#  ║  Author: David De Potter, pl3onasm@gmail.com               ║
+#  ║  License: refer to the license file in this repository     ║
+#  ║  Description: implementation of the puzzle class           ║
+#  ╙────────────────────────────────────────────────────────────╜
 
 import copy
 

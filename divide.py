@@ -1,10 +1,10 @@
-#  ┌──────────────────────────────────────────────────────────────────────┐
-#  |  File name: divide.py                                                | 
-#  |  Author: David De Potter, pl3onasm@gmail.com                         |
-#  |  License: refer to the license file in this repository               |
-#  |  Description: implementation of a divide and conquer strategy for    |
-#  |               reducing the original problem to a puzzle of 2x3       |
-#  └──────────────────────────────────────────────────────────────────────┘
+#  ╓──────────────────────────────────────────────────────────────────────╖
+#  ║  File name: divide.py                                                ║ 
+#  ║  Author: David De Potter, pl3onasm@gmail.com                         ║
+#  ║  License: refer to the license file in this repository               ║
+#  ║  Description: implementation of a divide and conquer strategy for    ║
+#  ║               reducing the original problem to a puzzle of 2x3       ║
+#  ╙──────────────────────────────────────────────────────────────────────╜
 
 from astar import *
 

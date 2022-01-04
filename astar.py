@@ -1,13 +1,13 @@
-#  ┌────────────────────────────────────────────────────────────────────────────┐
-#  |  File name: astar.py                                                       | 
-#  |  Author: David De Potter, pl3onasm@gmail.com                               |
-#  |  License: refer to the license file in this repository                     |
-#  |  Description: implementation of A* algorithms                              |
-#  |  - AStarTile is used to compute the shortest path from the blank           |
-#  |  square to a given tile's neighbour (adjacent tile)                        |
-#  |  - AStar computes the shortest node path for a 2x3 puzzle, where each      |
-#  |  node contains a new puzzle that is one swap further away from its parent  |
-#  └────────────────────────────────────────────────────────────────────────────┘
+#  ╓────────────────────────────────────────────────────────────────────────────╖
+#  ║  File name: astar.py                                                       ║ 
+#  ║  Author: David De Potter, pl3onasm@gmail.com                               ║
+#  ║  License: refer to the license file in this repository                     ║
+#  ║  Description: implementation of A* algorithms                              ║
+#  ║  - AStarTile is used to compute the shortest path from the blank           ║
+#  ║  square to a given tile's neighbour (adjacent tile)                        ║
+#  ║  - AStar computes the shortest node path for a 2x3 puzzle, where each      ║
+#  ║  node contains a new puzzle that is one swap further away from its parent  ║
+#  ╙────────────────────────────────────────────────────────────────────────────╜
 
 from queue import PriorityQueue
 

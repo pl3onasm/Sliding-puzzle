@@ -53,7 +53,7 @@ def main(inFile):
   if not os.path.exists(path): 
     os.makedirs(path)
 	
-  outFile = path+"/{}.out".format(inFile[6:-3])
+  outFile = path+f"/{inFile[6:-3]}.out"
 	
   with open(outFile, 'w', encoding = "utf-8") as f:
     f.write(info + output)

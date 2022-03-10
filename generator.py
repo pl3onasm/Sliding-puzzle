@@ -7,9 +7,7 @@
 #  ║  the input directory (which will be created if it does not exist)    ║
 #  ╙──────────────────────────────────────────────────────────────────────╜
 
-import random
-import sys
-import os
+import random, sys, os
 
 def generator(width):
   p = list(range(0,width**2))
@@ -18,8 +16,7 @@ def generator(width):
 
 def getBlankX (board, width):
   for x in board:
-    if board[x] == 0: 
-      return x//width
+    if board[x] == 0: return x//width
 
 def solvable (board, width):
   '''verifies whether a given puzzle is solvable or not'''
@@ -27,8 +24,7 @@ def solvable (board, width):
     inversions, l = 0, len(arr)
     for i in range(l):
       for j in range(i + 1, l):
-        if (arr[i] > arr[j]):
-          inversions += 1
+        if (arr[i] > arr[j]): inversions += 1
     return inversions      
   
   copy = board.copy()
@@ -51,8 +47,7 @@ def stringify (arr, width):
   for row in range(width):
     for i, d in enumerate(range (width)):
       string += str(arr.pop())
-      if i < width-1: 
-        string += ", "
+      if i < width-1: string += ", "
     string += '\n'
   return string
 
@@ -73,18 +68,16 @@ def main():
     ptype = sys.argv[2]
 
   path = os.getcwd() + "/input"
-  if not os.path.exists(path): 
-    os.makedirs(path)
+  if not os.path.exists(path): os.makedirs(path)
 	
   fileNum = getFileNumber(path)
-  file = path+"/{}.in".format(fileNum)
+  file = path + f"/{fileNum}.in"
 
   if ptype == 's':
     d = "solvable "
     while 1:
       p = generator(width)
-      if solvable(p, width):
-        break
+      if solvable(p, width): break
   elif ptype == 'r':
     d = "(solvable or unsolvable) "
     p = generator(width)

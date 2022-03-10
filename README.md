@@ -4,7 +4,7 @@ This program aims to solve a given [sliding tile puzzle](https://en.wikipedia.or
 
 ## 🔹Usage
 
-If n is the puzzle width, then the input should consist of a total of n lines comprised of n integer values ranging from 0 up to and including n^2 - 1, where 3 <= n <= 25 (execution time for 3x3 is 0.001s, for 25x25 it is 10s)
+If n is the puzzle width, then the input should consist of a total of n lines comprised of n integer values ranging from 0 up to and including n^2 - 1, where 3 <= n <= 25 (the execution time for 3x3 is 0.001s, for 25x25 it is 10s)  
 The input should be provided as exemplified in the .in files included in this repository, i.e. every number should be separated by a comma (blank spaces are ignored), and every line by a newline character.   
   
 To run the program, make sure to provide the input file as an argument. For example:

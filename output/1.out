@@ -1,5 +1,8 @@
 
-Initial board
+====<  Solved in 0.001 s, and in 25 steps  >====
+
+
+>> Initial board <<
 
 	----------------
 	|  4 |  1 |  3 |
@@ -9,7 +12,7 @@ Initial board
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 8 Right ⮞
+STEP 1: Move tile 8 to the right ⮞
 
 	----------------
 	|  4 |  1 |  3 |
@@ -19,7 +22,7 @@ Tile 8 Right ⮞
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 2 Right ⮞
+STEP 2: Move tile 2 to the right ⮞
 
 	----------------
 	|  4 |  1 |  3 |
@@ -29,7 +32,7 @@ Tile 2 Right ⮞
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 4 Down ⮟
+STEP 3: Move tile 4 down ⮟
 
 	----------------
 	|    |  1 |  3 |
@@ -39,7 +42,7 @@ Tile 4 Down ⮟
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 1 Left ⮜
+STEP 4: Move tile 1 to the left ⮜
 
 	----------------
 	|  1 |    |  3 |
@@ -49,7 +52,7 @@ Tile 1 Left ⮜
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 2 Up ⮝
+STEP 5: Move tile 2 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -59,7 +62,7 @@ Tile 2 Up ⮝
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 8 Left ⮜
+STEP 6: Move tile 8 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |
@@ -69,7 +72,7 @@ Tile 8 Left ⮜
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 3 Down ⮟
+STEP 7: Move tile 3 down ⮟
 
 	----------------
 	|  1 |  2 |    |
@@ -79,7 +82,7 @@ Tile 3 Down ⮟
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 2 Right ⮞
+STEP 8: Move tile 2 to the right ⮞
 
 	----------------
 	|  1 |    |  2 |
@@ -89,7 +92,7 @@ Tile 2 Right ⮞
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 8 Up ⮝
+STEP 9: Move tile 8 up ⮝
 
 	----------------
 	|  1 |  8 |  2 |
@@ -99,7 +102,7 @@ Tile 8 Up ⮝
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 6 Up ⮝
+STEP 10: Move tile 6 up ⮝
 
 	----------------
 	|  1 |  8 |  2 |
@@ -109,7 +112,7 @@ Tile 6 Up ⮝
 	|  7 |    |  5 |
 	----------------
 
-Tile 5 Left ⮜
+STEP 11: Move tile 5 to the left ⮜
 
 	----------------
 	|  1 |  8 |  2 |
@@ -119,7 +122,7 @@ Tile 5 Left ⮜
 	|  7 |  5 |    |
 	----------------
 
-Tile 3 Down ⮟
+STEP 12: Move tile 3 down ⮟
 
 	----------------
 	|  1 |  8 |  2 |
@@ -129,7 +132,7 @@ Tile 3 Down ⮟
 	|  7 |  5 |  3 |
 	----------------
 
-Tile 3 Up ⮝
+STEP 13: Move tile 3 up ⮝
 
 	----------------
 	|  1 |  8 |  2 |
@@ -139,7 +142,7 @@ Tile 3 Up ⮝
 	|  7 |  5 |    |
 	----------------
 
-Tile 5 Right ⮞
+STEP 14: Move tile 5 to the right ⮞
 
 	----------------
 	|  1 |  8 |  2 |
@@ -149,7 +152,7 @@ Tile 5 Right ⮞
 	|  7 |    |  5 |
 	----------------
 
-Tile 6 Down ⮟
+STEP 15: Move tile 6 down ⮟
 
 	----------------
 	|  1 |  8 |  2 |
@@ -159,7 +162,7 @@ Tile 6 Down ⮟
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 8 Down ⮟
+STEP 16: Move tile 8 down ⮟
 
 	----------------
 	|  1 |    |  2 |
@@ -169,7 +172,7 @@ Tile 8 Down ⮟
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 2 Left ⮜
+STEP 17: Move tile 2 to the left ⮜
 
 	----------------
 	|  1 |  2 |    |
@@ -179,7 +182,7 @@ Tile 2 Left ⮜
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 3 Up ⮝
+STEP 18: Move tile 3 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -189,7 +192,7 @@ Tile 3 Up ⮝
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 8 Right ⮞
+STEP 19: Move tile 8 to the right ⮞
 
 	----------------
 	|  1 |  2 |  3 |
@@ -199,7 +202,7 @@ Tile 8 Right ⮞
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 6 Up ⮝
+STEP 20: Move tile 6 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -209,7 +212,7 @@ Tile 6 Up ⮝
 	|  7 |    |  5 |
 	----------------
 
-Tile 5 Left ⮜
+STEP 21: Move tile 5 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |
@@ -219,7 +222,7 @@ Tile 5 Left ⮜
 	|  7 |  5 |    |
 	----------------
 
-Tile 8 Down ⮟
+STEP 22: Move tile 8 down ⮟
 
 	----------------
 	|  1 |  2 |  3 |
@@ -229,7 +232,7 @@ Tile 8 Down ⮟
 	|  7 |  5 |  8 |
 	----------------
 
-Tile 6 Right ⮞
+STEP 23: Move tile 6 to the right ⮞
 
 	----------------
 	|  1 |  2 |  3 |
@@ -239,7 +242,7 @@ Tile 6 Right ⮞
 	|  7 |  5 |  8 |
 	----------------
 
-Tile 5 Up ⮝
+STEP 24: Move tile 5 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -249,7 +252,7 @@ Tile 5 Up ⮝
 	|  7 |    |  8 |
 	----------------
 
-Tile 8 Left ⮜
+STEP 25: Move tile 8 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |

@@ -1,5 +1,8 @@
 
-Initial board
+====<  Solved in 0.004 s, and in 45 steps  >====
+
+
+>> Initial board <<
 
 	----------------
 	|  2 |  3 |  5 |
@@ -9,7 +12,7 @@ Initial board
 	|  6 |  1 |  4 |
 	----------------
 
-Tile 7 Left ⮜
+STEP 1: Move tile 7 to the left ⮜
 
 	----------------
 	|  2 |  3 |  5 |
@@ -19,7 +22,7 @@ Tile 7 Left ⮜
 	|  6 |  1 |  4 |
 	----------------
 
-Tile 1 Up ⮝
+STEP 2: Move tile 1 up ⮝
 
 	----------------
 	|  2 |  3 |  5 |
@@ -29,7 +32,7 @@ Tile 1 Up ⮝
 	|  6 |    |  4 |
 	----------------
 
-Tile 6 Right ⮞
+STEP 3: Move tile 6 to the right ⮞
 
 	----------------
 	|  2 |  3 |  5 |
@@ -39,7 +42,7 @@ Tile 6 Right ⮞
 	|    |  6 |  4 |
 	----------------
 
-Tile 7 Down ⮟
+STEP 4: Move tile 7 down ⮟
 
 	----------------
 	|  2 |  3 |  5 |
@@ -49,7 +52,7 @@ Tile 7 Down ⮟
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 2 Down ⮟
+STEP 5: Move tile 2 down ⮟
 
 	----------------
 	|    |  3 |  5 |
@@ -59,7 +62,7 @@ Tile 2 Down ⮟
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 3 Left ⮜
+STEP 6: Move tile 3 to the left ⮜
 
 	----------------
 	|  3 |    |  5 |
@@ -69,7 +72,7 @@ Tile 3 Left ⮜
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 1 Up ⮝
+STEP 7: Move tile 1 up ⮝
 
 	----------------
 	|  3 |  1 |  5 |
@@ -79,7 +82,7 @@ Tile 1 Up ⮝
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 2 Right ⮞
+STEP 8: Move tile 2 to the right ⮞
 
 	----------------
 	|  3 |  1 |  5 |
@@ -89,7 +92,7 @@ Tile 2 Right ⮞
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 3 Down ⮟
+STEP 9: Move tile 3 down ⮟
 
 	----------------
 	|    |  1 |  5 |
@@ -99,7 +102,7 @@ Tile 3 Down ⮟
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 1 Left ⮜
+STEP 10: Move tile 1 to the left ⮜
 
 	----------------
 	|  1 |    |  5 |
@@ -109,7 +112,7 @@ Tile 1 Left ⮜
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 2 Up ⮝
+STEP 11: Move tile 2 up ⮝
 
 	----------------
 	|  1 |  2 |  5 |
@@ -119,7 +122,7 @@ Tile 2 Up ⮝
 	|  7 |  6 |  4 |
 	----------------
 
-Tile 6 Up ⮝
+STEP 12: Move tile 6 up ⮝
 
 	----------------
 	|  1 |  2 |  5 |
@@ -129,7 +132,7 @@ Tile 6 Up ⮝
 	|  7 |    |  4 |
 	----------------
 
-Tile 7 Right ⮞
+STEP 13: Move tile 7 to the right ⮞
 
 	----------------
 	|  1 |  2 |  5 |
@@ -139,7 +142,7 @@ Tile 7 Right ⮞
 	|    |  7 |  4 |
 	----------------
 
-Tile 3 Down ⮟
+STEP 14: Move tile 3 down ⮟
 
 	----------------
 	|  1 |  2 |  5 |
@@ -149,7 +152,7 @@ Tile 3 Down ⮟
 	|  3 |  7 |  4 |
 	----------------
 
-Tile 6 Left ⮜
+STEP 15: Move tile 6 to the left ⮜
 
 	----------------
 	|  1 |  2 |  5 |
@@ -159,7 +162,7 @@ Tile 6 Left ⮜
 	|  3 |  7 |  4 |
 	----------------
 
-Tile 7 Up ⮝
+STEP 16: Move tile 7 up ⮝
 
 	----------------
 	|  1 |  2 |  5 |
@@ -169,7 +172,7 @@ Tile 7 Up ⮝
 	|  3 |    |  4 |
 	----------------
 
-Tile 3 Right ⮞
+STEP 17: Move tile 3 to the right ⮞
 
 	----------------
 	|  1 |  2 |  5 |
@@ -179,7 +182,7 @@ Tile 3 Right ⮞
 	|    |  3 |  4 |
 	----------------
 
-Tile 6 Down ⮟
+STEP 18: Move tile 6 down ⮟
 
 	----------------
 	|  1 |  2 |  5 |
@@ -189,7 +192,7 @@ Tile 6 Down ⮟
 	|  6 |  3 |  4 |
 	----------------
 
-Tile 7 Left ⮜
+STEP 19: Move tile 7 to the left ⮜
 
 	----------------
 	|  1 |  2 |  5 |
@@ -199,7 +202,7 @@ Tile 7 Left ⮜
 	|  6 |  3 |  4 |
 	----------------
 
-Tile 8 Left ⮜
+STEP 20: Move tile 8 to the left ⮜
 
 	----------------
 	|  1 |  2 |  5 |
@@ -209,7 +212,7 @@ Tile 8 Left ⮜
 	|  6 |  3 |  4 |
 	----------------
 
-Tile 4 Up ⮝
+STEP 21: Move tile 4 up ⮝
 
 	----------------
 	|  1 |  2 |  5 |
@@ -219,7 +222,7 @@ Tile 4 Up ⮝
 	|  6 |  3 |    |
 	----------------
 
-Tile 3 Right ⮞
+STEP 22: Move tile 3 to the right ⮞
 
 	----------------
 	|  1 |  2 |  5 |
@@ -229,7 +232,7 @@ Tile 3 Right ⮞
 	|  6 |    |  3 |
 	----------------
 
-Tile 8 Down ⮟
+STEP 23: Move tile 8 down ⮟
 
 	----------------
 	|  1 |  2 |  5 |
@@ -239,7 +242,7 @@ Tile 8 Down ⮟
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 4 Left ⮜
+STEP 24: Move tile 4 to the left ⮜
 
 	----------------
 	|  1 |  2 |  5 |
@@ -249,7 +252,7 @@ Tile 4 Left ⮜
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 5 Down ⮟
+STEP 25: Move tile 5 down ⮟
 
 	----------------
 	|  1 |  2 |    |
@@ -259,7 +262,7 @@ Tile 5 Down ⮟
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 2 Right ⮞
+STEP 26: Move tile 2 to the right ⮞
 
 	----------------
 	|  1 |    |  2 |
@@ -269,7 +272,7 @@ Tile 2 Right ⮞
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 4 Up ⮝
+STEP 27: Move tile 4 up ⮝
 
 	----------------
 	|  1 |  4 |  2 |
@@ -279,7 +282,7 @@ Tile 4 Up ⮝
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 5 Left ⮜
+STEP 28: Move tile 5 to the left ⮜
 
 	----------------
 	|  1 |  4 |  2 |
@@ -289,7 +292,7 @@ Tile 5 Left ⮜
 	|  6 |  8 |  3 |
 	----------------
 
-Tile 3 Up ⮝
+STEP 29: Move tile 3 up ⮝
 
 	----------------
 	|  1 |  4 |  2 |
@@ -299,7 +302,7 @@ Tile 3 Up ⮝
 	|  6 |  8 |    |
 	----------------
 
-Tile 8 Right ⮞
+STEP 30: Move tile 8 to the right ⮞
 
 	----------------
 	|  1 |  4 |  2 |
@@ -309,7 +312,7 @@ Tile 8 Right ⮞
 	|  6 |    |  8 |
 	----------------
 
-Tile 5 Down ⮟
+STEP 31: Move tile 5 down ⮟
 
 	----------------
 	|  1 |  4 |  2 |
@@ -319,7 +322,7 @@ Tile 5 Down ⮟
 	|  6 |  5 |  8 |
 	----------------
 
-Tile 4 Down ⮟
+STEP 32: Move tile 4 down ⮟
 
 	----------------
 	|  1 |    |  2 |
@@ -329,7 +332,7 @@ Tile 4 Down ⮟
 	|  6 |  5 |  8 |
 	----------------
 
-Tile 2 Left ⮜
+STEP 33: Move tile 2 to the left ⮜
 
 	----------------
 	|  1 |  2 |    |
@@ -339,7 +342,7 @@ Tile 2 Left ⮜
 	|  6 |  5 |  8 |
 	----------------
 
-Tile 3 Up ⮝
+STEP 34: Move tile 3 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -349,7 +352,7 @@ Tile 3 Up ⮝
 	|  6 |  5 |  8 |
 	----------------
 
-Tile 8 Up ⮝
+STEP 35: Move tile 8 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -359,7 +362,7 @@ Tile 8 Up ⮝
 	|  6 |  5 |    |
 	----------------
 
-Tile 5 Right ⮞
+STEP 36: Move tile 5 to the right ⮞
 
 	----------------
 	|  1 |  2 |  3 |
@@ -369,7 +372,7 @@ Tile 5 Right ⮞
 	|  6 |    |  5 |
 	----------------
 
-Tile 6 Right ⮞
+STEP 37: Move tile 6 to the right ⮞
 
 	----------------
 	|  1 |  2 |  3 |
@@ -379,7 +382,7 @@ Tile 6 Right ⮞
 	|    |  6 |  5 |
 	----------------
 
-Tile 7 Down ⮟
+STEP 38: Move tile 7 down ⮟
 
 	----------------
 	|  1 |  2 |  3 |
@@ -389,7 +392,7 @@ Tile 7 Down ⮟
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 4 Left ⮜
+STEP 39: Move tile 4 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |
@@ -399,7 +402,7 @@ Tile 4 Left ⮜
 	|  7 |  6 |  5 |
 	----------------
 
-Tile 6 Up ⮝
+STEP 40: Move tile 6 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -409,7 +412,7 @@ Tile 6 Up ⮝
 	|  7 |    |  5 |
 	----------------
 
-Tile 5 Left ⮜
+STEP 41: Move tile 5 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |
@@ -419,7 +422,7 @@ Tile 5 Left ⮜
 	|  7 |  5 |    |
 	----------------
 
-Tile 8 Down ⮟
+STEP 42: Move tile 8 down ⮟
 
 	----------------
 	|  1 |  2 |  3 |
@@ -429,7 +432,7 @@ Tile 8 Down ⮟
 	|  7 |  5 |  8 |
 	----------------
 
-Tile 6 Right ⮞
+STEP 43: Move tile 6 to the right ⮞
 
 	----------------
 	|  1 |  2 |  3 |
@@ -439,7 +442,7 @@ Tile 6 Right ⮞
 	|  7 |  5 |  8 |
 	----------------
 
-Tile 5 Up ⮝
+STEP 44: Move tile 5 up ⮝
 
 	----------------
 	|  1 |  2 |  3 |
@@ -449,7 +452,7 @@ Tile 5 Up ⮝
 	|  7 |    |  8 |
 	----------------
 
-Tile 8 Left ⮜
+STEP 45: Move tile 8 to the left ⮜
 
 	----------------
 	|  1 |  2 |  3 |

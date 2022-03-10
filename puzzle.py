@@ -143,8 +143,8 @@ class Puzzle:
   def getTileSteps (self, coords):
     '''returns all valid adjactent tiles along with the corresponding step'''
     valid, (x,y) = [], coords
-    steps = [("Up \u2B9D",x+1,y), ("Down \u2B9F",x-1, y), 
-            ("Left \u2B9C",x,y+1), ("Right \u2B9E",x,y-1)]
+    steps = [("up \u2B9D",x+1,y), ("down \u2B9F",x-1, y), 
+            ("to the left \u2B9C",x,y+1), ("to the right \u2B9E",x,y-1)]
     for step,r,c in steps:
       if (0 <= r < self.width and 0 <= c < self.width) \
       and self.isActive(r,c):
@@ -165,8 +165,8 @@ class Puzzle:
 
   def getStep (self, w, x, y , z) :
     '''returns the step between to adjacent tiles'''
-    steps = [("Up \u2B9D",1,0), ("Down \u2B9F",-1,0), 
-            ("Left \u2B9C",0,1), ("Right \u2B9E",0,-1)]
+    steps = [("up \u2B9D",1,0), ("down \u2B9F",-1,0), 
+            ("to the left \u2B9C",0,1), ("to the right \u2B9E",0,-1)]
     for step,r,c in steps:
       if w + r == y and x + c == z:
         return step

@@ -27,8 +27,7 @@ class Puzzle:
     def transpose(grid):
       return [list(x) for x in zip(*grid)]
 
-    if stype == 'c': 
-      return transpose(self.goal)
+    if stype == 'c': return transpose(self.goal)
     return self.goal
 
   def solved (self):
@@ -40,7 +39,7 @@ class Puzzle:
     return self.hammingDistance() + self.manhattanDistance()
   
   def hammingDistance (self):
-    '''computes the hamming distance between two puzzles'''
+    '''computes the hamming distance between two puzzles 3x3 puzzles'''
     hamming = 0
     for i in range(3):
       for j in range(3):
@@ -49,7 +48,7 @@ class Puzzle:
     return hamming
 
   def manhattanDistance (self):
-    '''computes the manhattan or taxi-cab distance between two puzzles'''
+    '''computes the manhattan or taxi-cab distance between two 3x3 puzzles'''
     manhattan = 0; copy1D = sum(self.board,[])
     for i,val in enumerate(copy1D):
       if copy1D[i]:
@@ -90,15 +89,11 @@ class Puzzle:
       for j in range(self.width):
         d = self.board[i][j]
         if self.width <10:
-          if d:
-            output += "| {0:2d} ".format(d)
-          else:
-            output += "|    "
+          if d: output += f"| {d:2d} "
+          else: output += "|    "
         elif self.width >= 10:
-          if d:
-            output += "| {0:3d} ".format(d)
-          else:
-            output += "|     "
+          if d: output += f"| {d:3d} "
+          else: output += "|     "
       output += "|"+'\n'
     output += '\t'+'-'*(w+1)+'\n\n'
     return output
@@ -114,8 +109,7 @@ class Puzzle:
       inversions, l = 0, len(arr)
       for i in range(l):
         for j in range(i + 1, l):
-          if (arr[i] > arr[j]):
-            inversions += 1
+          if (arr[i] > arr[j]): inversions += 1
       return inversions      
     
     copy1D = sum(self.board,[])
@@ -129,8 +123,7 @@ class Puzzle:
   def getTileCoords (self, value):
     for x in range(self.width):
       for y in range(self.width):
-        if self.board[x][y] == value: 
-          return x,y
+        if self.board[x][y] == value: return x,y
   
   def getTileValue (self, coords):
     (x,y) = coords
@@ -147,8 +140,7 @@ class Puzzle:
             ("to the left \u2B9C",x,y+1), ("to the right \u2B9E",x,y-1)]
     for step,r,c in steps:
       if (0 <= r < self.width and 0 <= c < self.width) \
-      and self.isActive(r,c):
-        valid += [(step,r,c)]
+      and self.isActive(r,c): valid += [(step,r,c)]
     return valid
 
   def deactivate (self, x ,y) :
@@ -168,5 +160,4 @@ class Puzzle:
     steps = [("up \u2B9D",1,0), ("down \u2B9F",-1,0), 
             ("to the left \u2B9C",0,1), ("to the right \u2B9E",0,-1)]
     for step,r,c in steps:
-      if w + r == y and x + c == z:
-        return step
+      if w + r == y and x + c == z: return step

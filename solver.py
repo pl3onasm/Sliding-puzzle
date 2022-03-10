@@ -19,8 +19,8 @@ def solve (board):
     # formats the output
     output,num = "",0
     for step,value,puzzle in solutionPath:
-      if step == "Initial board":
-        output += f"\n>> {step} <<\n\n" + puzzle
+      if step == "INITIAL BOARD":
+        output += f"\n\t= {step} =\n\n" + puzzle
       else:
         num +=1
         output += f"STEP {num}: Move tile {value} {step}\n\n" + puzzle
@@ -30,7 +30,7 @@ def solve (board):
   if not puzzle.isSolvable():
     return "\nThe puzzle is unsolvable.\n", 0
   
-  path1 = [("Initial board","",puzzle.draw())]
+  path1 = [("INITIAL BOARD","",puzzle.draw())]
   reduceTo2x3(puzzle, len(board[0]), path1)
   path2 = AStar(puzzle)  #solves the remaining 2x3 puzzle 
 

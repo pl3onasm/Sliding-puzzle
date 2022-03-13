@@ -10,8 +10,7 @@
 import random, sys, os
 
 def generator(width):
-  p = list(range(0,width**2))
-  random.shuffle(p)
+  p = list(range(0,width**2)); random.shuffle(p)
   return p
 
 def getBlankX (board, width):
@@ -27,17 +26,15 @@ def solvable (board, width):
         if (arr[i] > arr[j]): inversions += 1
     return inversions      
   
-  copy = board.copy()
-  copy.remove(0)
-  if width & 1: #odd
-    return 0 if (inversions(copy) & 1) else 1
+  copy = board.copy(); copy.remove(0)
+  if width & 1: return 0 if (inversions(copy) & 1) else 1
   return 1 if ((inversions(copy) + getBlankX(board, width)) & 1) else 0
 
 def getFileNumber(path):
   files = os.listdir(path)
   if files:
     for idx,file in enumerate(files):
-      files[idx] = int(file[:-3])
+      files[idx] = int(file.split('.')[0])
     files.sort()
     return 1 + files.pop()
   return 1
@@ -69,7 +66,6 @@ def main():
 
   path = os.getcwd() + "/input"
   if not os.path.exists(path): os.makedirs(path)
-	
   fileNum = getFileNumber(path)
   file = path + f"/{fileNum}.in"
 
